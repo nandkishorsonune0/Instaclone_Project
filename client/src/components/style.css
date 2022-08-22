@@ -1,0 +1,159 @@
+
+/* below styles for landing page */
+.Landing{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    justify-content: space-evenly;
+}
+.landing_img{
+    width: 45vw;
+    /* height: 80vh; */
+    align-self: center;
+    justify-self: center;
+    border: 1px;
+}
+.name_button{
+    text-align: center;
+    border: 2px;
+}
+.name{
+    color: brown;
+    font-family:'Times New Roman';
+    font-size: 2rem;
+}
+.button{
+    margin: 2.5rem;
+    text-decoration: none;
+    border: 2px black solid;
+    padding: 0.2rem;
+    color: brown;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.button:hover{
+    color: #C7E8F3;
+    background-color: #41393E;
+}
+
+/* for header */
+#header{
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    color: brown;
+}
+.logo_icon{
+    width: 3em;
+    height: 3em;
+}
+#app_name{
+    font-size: 3em;
+    margin: 0;
+}
+#name{
+    display: flex;
+}
+.post{
+    margin: 1rem;    
+}
+
+/* post */
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+    width: 35vw;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    border-radius: 10px 10px 0 0;
+}
+.name_loc{
+    margin: 0px;
+}
+.image{
+    display: flex;
+    width: 37vw;
+    height: 45vh;
+    border: 0.5px black solid;
+
+}
+#footer{
+    width: 35vw;
+    height: 14vh;
+    padding: 1vw;
+    border: 1px black solid;
+    border-radius: 0 0 10px 10px;
+} 
+#footer_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2vh;
+    padding: 0.3rem 0;
+}
+.like_share{
+    height: 3vh;
+    width: 1.9vw;
+    padding: 0.3rem;
+}
+.date, .likes{
+    font-weight: 400;
+}
+/* form page */
+.formtocenter{
+    display: flex;
+    justify-content: center;
+}
+.formbody{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    margin-top: 5%;
+    padding: 1rem;
+    justify-content: center;
+
+}
+.nameloc{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.authloc{
+    width: 42%;
+}
+.buttonbody{
+    display: flex;
+    justify-content: center;
+}
+.submitbutton{
+    width: 5rem;
+    border-radius: 5px;
+}
+
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	opacity: 0;
+	z-index: 2;
+}
